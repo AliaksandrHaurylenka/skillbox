@@ -43,6 +43,8 @@ body {
 .link {
   display: inline-block;
   padding: 24px 49px;
+  font-weight: 700;
+  font-size: 18px;
   background: #3f2aff;
 }
 
@@ -50,16 +52,14 @@ body {
   margin-right: 25px;
 }
 
-.link,
-.download {
-  font-weight: 700;
-  font-size: 18px;
-}
-
 .download {
   padding-left: 30px;
-  background: url('../img/download.png') left center no-repeat;
+  font-weight: 700;
+  font-size: 18px;
   color: #3f2aff;
+  background-image: url('../img/download.png');
+  background-position: left center;
+  background-repeat: no-repeat;
 }
 
 
@@ -111,9 +111,10 @@ figure {
 .gray-block {
   border-radius: 20px;
   padding: 30px;
-  background-color: #f3f3f3;
-  background-repeat: no-repeat;
   background-position: right;
+  background-repeat: no-repeat;
+  background-color: #f3f3f3;
+
 
 }
 
