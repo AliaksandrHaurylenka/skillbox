@@ -246,12 +246,10 @@ img.logo-modules {
   display: inline-block;
   margin-right: 25px;
   margin-bottom: 25px;
-  padding-top: 205px;
+  padding: 205px 0 0 25px;
   width: 572px;
   height: 505px;
   vertical-align: middle;
-
-  /* background: #fff; */
 
   filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.1));
 }
@@ -277,13 +275,6 @@ img.logo-modules {
   background: url('../img//modules/layout.jpg') #fff 0 top no-repeat;
 }
 
-/* img.module-img {
-  margin-bottom: 25px;
-} */
-
-.content-module {
-  padding-left: 25px;
-}
 .title-module {
   font-weight: bold;
   font-size: 40px;
