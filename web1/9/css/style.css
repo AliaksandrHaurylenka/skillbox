@@ -467,6 +467,113 @@ body {
 }
 
 
+/* join-us */
+.join-us {
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.join-us-title {
+  text-align: center;
+}
+
+.join-us-descr {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  text-align: center;
+
+  color: #787878;
+}
+
+.form {
+  padding-left: 53px;
+  padding-right: 53px;
+}
+
+.form-top {
+  justify-content: space-between;
+
+  margin-bottom: 19px;
+}
+
+.form-left {
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 49%;
+}
+
+.form-right {
+  width: 49%;
+}
+
+.form-input {
+  padding: 16px 28px;
+  border: 1px solid #DADADA;
+  border-radius: 50px;
+  width: 251px;
+  height: 60px;
+}
+
+.form-input:not(:nth-child(3n)) {
+  margin-bottom: 19px;
+}
+
+.form-select {
+  padding: 16px 28px;
+  border: 1px solid #DADADA;
+  border-radius: 50px;
+  width: 251px;
+  height: 60px;
+}
+
+.form-textarea {
+  padding: 16px 28px;
+  border: 1px solid #DADADA;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+
+  resize: none;
+}
+
+.form-bottom {
+  justify-content: flex-end;
+}
+
+.form-wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-btn {
+  margin-bottom: 9px;
+  min-width: 230px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  border-radius: 50px;
+}
+
+.form-check {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #787878;
+}
+
+.form-check input {
+  margin-right: 9px;
+}
+
+.form-check a {
+  color: #3172B9;
+  border-bottom: 1px solid #3172B9;
+}
+
+
 /* footer */
 .footer {
   padding: 42px 0;
@@ -527,9 +634,11 @@ body {
 .social-link-tw {
   background-image: url("../img/twiter.svg");
 }
+
 .social-link-linkedin {
   background-image: url("../img/lidkenin.svg");
 }
+
 .social-link-mail {
   background-image: url("../img/mail.svg");
 }
